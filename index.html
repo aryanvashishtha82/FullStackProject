@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FullStack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<style>
+    body{
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0px;
+        padding: 0px;
+
+        
+
+    }
+    .header{
+        background-color: white;
+    }
+    .header h1{
+        position: absolute;
+       left:100px;
+       top:50px;
+       font-family: 'Dancing Script', cursive;
+      }
+   nav ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }  
+
+  nav ul li{
+      color: white;
+      margin:20px;
+      line-height: 100px;
+  }
+  nav ul li a{
+      list-style: none;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 23px;
+      
+  }
+   nav ul li a:hover{
+       background-color: green;
+       transition: 4ms;
+   }
+   .section {
+       background:#ccc; 
+       max-width: 400px;
+       height: 250px;
+       position: absolute;
+       left: 200px;
+       top:300px;
+       opacity: 0.6;
+       border-radius: 5px; ;
+       border: none;
+   }
+   .section h2,p{
+       color:black;
+       margin: 10px;
+       padding: 10px;
+   }
+   .section btn{
+       
+       padding: 20px;
+       background-color:green;
+   }
+   .image{
+       display: flex;
+       height: 90vh;
+       width: 500px;
+       margin-left:80px;
+       
+   }
+</style>
+<body>
+    <div class="header">
+        <h1>Delicious</h1>
+
+    
+    <nav>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Pages<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+            <li><a href="#">Mega Menu<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">4Vegans</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i>
+            </a></li>
+        
+        </ul>
+    </nav>
+</div>
+
+<div class="section">
+    <section>
+        <h2>Delicious Homemade Burger</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa impedit nemo magni </p>
+        <button class = "btn">See Recipe</button>
+    </section>
+
+</div>
+<div class="image">
+    <img src="foodimage.jpg" alt="">
+</div>
+</body>
+</html>
